@@ -6,13 +6,14 @@
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="12089"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
         <capability name="documents saved in the Xcode 8 format" minToolsVersion="8.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
         <scene sceneID="tne-QT-ifu">
             <objects>
-                <viewController id="BYZ-38-t0r" customClass="ViewController" customModule="ASTransitMonitor" customModuleProvider="target" sceneMemberID="viewController">
+                <viewController id="BYZ-38-t0r" customClass="ViewController" sceneMemberID="viewController">
                     <layoutGuides>
                         <viewControllerLayoutGuide type="top" id="y3c-jy-aDJ"/>
                         <viewControllerLayoutGuide type="bottom" id="wfy-db-euE"/>
@@ -27,14 +28,25 @@
                                 <nil key="textColor"/>
                                 <nil key="highlightedColor"/>
                             </label>
+                            <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Label" textAlignment="natural" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="7pk-zs-fXm">
+                                <rect key="frame" x="166" y="556" width="42" height="21"/>
+                                <fontDescription key="fontDescription" type="system" pointSize="17"/>
+                                <nil key="textColor"/>
+                                <nil key="highlightedColor"/>
+                            </label>
                         </subviews>
                         <color key="backgroundColor" red="1" green="1" blue="1" alpha="1" colorSpace="custom" customColorSpace="sRGB"/>
                         <constraints>
+                            <constraint firstItem="wfy-db-euE" firstAttribute="top" secondItem="7pk-zs-fXm" secondAttribute="bottom" constant="90" id="d6w-Vi-hBq"/>
+                            <constraint firstItem="7pk-zs-fXm" firstAttribute="leading" secondItem="8bC-Xf-vdC" secondAttribute="leadingMargin" constant="150" id="dWF-cS-iNz"/>
+                            <constraint firstAttribute="trailingMargin" secondItem="7pk-zs-fXm" secondAttribute="trailing" constant="151" id="h7R-Gp-bdQ"/>
                             <constraint firstItem="zvI-5P-0o9" firstAttribute="centerY" secondItem="8bC-Xf-vdC" secondAttribute="centerY" id="ogT-hd-ue8"/>
+                            <constraint firstItem="7pk-zs-fXm" firstAttribute="top" secondItem="zvI-5P-0o9" secondAttribute="bottom" constant="212" id="vwb-lf-zlP"/>
                             <constraint firstItem="zvI-5P-0o9" firstAttribute="centerX" secondItem="8bC-Xf-vdC" secondAttribute="centerX" id="yeG-gv-l4I"/>
                         </constraints>
                     </view>
                     <connections>
+                        <outlet property="speedLabel" destination="7pk-zs-fXm" id="BaA-rr-rby"/>
                         <outlet property="stateLabel" destination="zvI-5P-0o9" id="O3J-f7-1hz"/>
                     </connections>
                 </viewController>

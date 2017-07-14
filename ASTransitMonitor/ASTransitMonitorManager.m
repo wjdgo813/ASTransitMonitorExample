@@ -32,6 +32,10 @@
     
     
 }
+
+-(void)transitMonitor:(ASTransitMonitor *)transitMonitor didChangeSpeed:(CGFloat)newSpeed oldSpeed:(CGFloat)oldSpeed{
+    [self.delegate locationManager:self didChangeSpeed:newSpeed oldSpeed:oldSpeed];
+}
 -(void)initMonitor{
     self.transitMonitor = [ASTransitMonitor sharedInstance];
     self.transitMonitor.delegate = self;

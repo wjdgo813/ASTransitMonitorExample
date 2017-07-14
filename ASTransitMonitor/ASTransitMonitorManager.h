@@ -12,6 +12,7 @@
 @protocol ASLocationMonitorManagerDelegate <NSObject>
 
 -(void)locationManager:(ASTransitMonitorManager*)locationManager  didChangeTransitState:(NSString*)stateString;
+-(void)locationManager:(ASTransitMonitorManager*)locationManager  didChangeSpeed:(CGFloat)newSpeed oldSpeed:(CGFloat)oldSpeed;
 @end
 
 @interface ASTransitMonitorManager : NSObject<ASTransitMonitorDelegate>

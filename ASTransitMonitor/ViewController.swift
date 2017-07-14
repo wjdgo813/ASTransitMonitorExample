@@ -10,6 +10,9 @@ import UIKit
 
 
 class ViewController: UIViewController,ASLocationMonitorManagerDelegate {
+    
+    
+    @IBOutlet weak var speedLabel: UILabel!
     @IBOutlet weak var stateLabel: UILabel!
     var monitorManager : ASTransitMonitorManager! = nil
     override func viewDidLoad() {
@@ -25,6 +28,11 @@ class ViewController: UIViewController,ASLocationMonitorManagerDelegate {
     func locationManager(_ locationManager: ASTransitMonitorManager!, didChangeTransitState stateString: String!) {
         self.stateLabel.text = stateString
     }
+    
+    func locationManager(_ locationManager: ASTransitMonitorManager!, didChangeSpeed newSpeed: CGFloat, oldSpeed: CGFloat) {
+        self.speedLabel.text = "new : \(newSpeed) , old : \(oldSpeed)"
+    }
+    
         
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
