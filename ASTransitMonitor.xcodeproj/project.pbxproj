@@ -1,0 +1,743 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2B2CF540CE47D8F5A3F4C6BC /* Pods_ASTransitMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 2A67E9474417697DE577AA9F /* Pods_ASTransitMonitor.framework */; };
+		3D8CD2C02CFF8D3613CC21E2 /* Pods_ASTransitMonitorUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D589787CC596265AB04AD541 /* Pods_ASTransitMonitorUITests.framework */; };
+		BABC66D61F18693300707FE1 /* ASTransitMonitorManager.m in Sources */ = {isa = PBXBuildFile; fileRef = BABC66D51F18693300707FE1 /* ASTransitMonitorManager.m */; };
+		BAC3FCA11F1862B5004FFBC4 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3FCA01F1862B5004FFBC4 /* AppDelegate.swift */; };
+		BAC3FCA31F1862B5004FFBC4 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3FCA21F1862B5004FFBC4 /* ViewController.swift */; };
+		BAC3FCA61F1862B5004FFBC4 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC3FCA41F1862B5004FFBC4 /* Main.storyboard */; };
+		BAC3FCA81F1862B5004FFBC4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BAC3FCA71F1862B5004FFBC4 /* Assets.xcassets */; };
+		BAC3FCAB1F1862B5004FFBC4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BAC3FCA91F1862B5004FFBC4 /* LaunchScreen.storyboard */; };
+		BAC3FCB61F1862B5004FFBC4 /* ASTransitMonitorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3FCB51F1862B5004FFBC4 /* ASTransitMonitorTests.swift */; };
+		BAC3FCC11F1862B5004FFBC4 /* ASTransitMonitorUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAC3FCC01F1862B5004FFBC4 /* ASTransitMonitorUITests.swift */; };
+		F9E41D2AB50E847881B104D7 /* Pods_ASTransitMonitorTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 511FA04A50933567B89C4ABA /* Pods_ASTransitMonitorTests.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BAC3FCB21F1862B5004FFBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC3FC951F1862B5004FFBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC3FC9C1F1862B5004FFBC4;
+			remoteInfo = ASTransitMonitor;
+		};
+		BAC3FCBD1F1862B5004FFBC4 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BAC3FC951F1862B5004FFBC4 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BAC3FC9C1F1862B5004FFBC4;
+			remoteInfo = ASTransitMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		2A67E9474417697DE577AA9F /* Pods_ASTransitMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASTransitMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		511FA04A50933567B89C4ABA /* Pods_ASTransitMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASTransitMonitorTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		5CF4E03635D839FBE3D778AD /* Pods-ASTransitMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitor.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+		80782222240B996D6E800450 /* Pods-ASTransitMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitor.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		A56C8A5525278C8A11268C39 /* Pods-ASTransitMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitorUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		A7843D342DFCCA61A50BF594 /* Pods-ASTransitMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitorTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		BABC66D41F18693300707FE1 /* ASTransitMonitorManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ASTransitMonitorManager.h; sourceTree = "<group>"; };
+		BABC66D51F18693300707FE1 /* ASTransitMonitorManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ASTransitMonitorManager.m; sourceTree = "<group>"; };
+		BAC3FC9D1F1862B5004FFBC4 /* ASTransitMonitor.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ASTransitMonitor.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC3FCA01F1862B5004FFBC4 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BAC3FCA21F1862B5004FFBC4 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		BAC3FCA51F1862B5004FFBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BAC3FCA71F1862B5004FFBC4 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BAC3FCAA1F1862B5004FFBC4 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BAC3FCAC1F1862B5004FFBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC3FCB11F1862B5004FFBC4 /* ASTransitMonitorTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTransitMonitorTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC3FCB51F1862B5004FFBC4 /* ASTransitMonitorTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTransitMonitorTests.swift; sourceTree = "<group>"; };
+		BAC3FCB71F1862B5004FFBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC3FCBC1F1862B5004FFBC4 /* ASTransitMonitorUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = ASTransitMonitorUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
+		BAC3FCC01F1862B5004FFBC4 /* ASTransitMonitorUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ASTransitMonitorUITests.swift; sourceTree = "<group>"; };
+		BAC3FCC21F1862B5004FFBC4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BAC3FCCE1F18637D004FFBC4 /* ASTransitMonitor-Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "ASTransitMonitor-Bridging-Header.h"; sourceTree = "<group>"; };
+		C0BF6CAEE03DBF0F0F710253 /* Pods-ASTransitMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitorUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		D589787CC596265AB04AD541 /* Pods_ASTransitMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ASTransitMonitorUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC81F533D082E2DB5DA25876 /* Pods-ASTransitMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ASTransitMonitorTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BAC3FC9A1F1862B5004FFBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2B2CF540CE47D8F5A3F4C6BC /* Pods_ASTransitMonitor.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCAE1F1862B5004FFBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F9E41D2AB50E847881B104D7 /* Pods_ASTransitMonitorTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCB91F1862B5004FFBC4 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3D8CD2C02CFF8D3613CC21E2 /* Pods_ASTransitMonitorUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0A1622DC9AF0A0DD86285B06 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				5CF4E03635D839FBE3D778AD /* Pods-ASTransitMonitor.debug.xcconfig */,
+				80782222240B996D6E800450 /* Pods-ASTransitMonitor.release.xcconfig */,
+				A7843D342DFCCA61A50BF594 /* Pods-ASTransitMonitorTests.debug.xcconfig */,
+				EC81F533D082E2DB5DA25876 /* Pods-ASTransitMonitorTests.release.xcconfig */,
+				A56C8A5525278C8A11268C39 /* Pods-ASTransitMonitorUITests.debug.xcconfig */,
+				C0BF6CAEE03DBF0F0F710253 /* Pods-ASTransitMonitorUITests.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		BAC3FC941F1862B5004FFBC4 = {
+			isa = PBXGroup;
+			children = (
+				BAC3FC9F1F1862B5004FFBC4 /* ASTransitMonitor */,
+				BAC3FCB41F1862B5004FFBC4 /* ASTransitMonitorTests */,
+				BAC3FCBF1F1862B5004FFBC4 /* ASTransitMonitorUITests */,
+				BAC3FC9E1F1862B5004FFBC4 /* Products */,
+				0A1622DC9AF0A0DD86285B06 /* Pods */,
+				E74E9F7ACD41D5B766665CA9 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		BAC3FC9E1F1862B5004FFBC4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3FC9D1F1862B5004FFBC4 /* ASTransitMonitor.app */,
+				BAC3FCB11F1862B5004FFBC4 /* ASTransitMonitorTests.xctest */,
+				BAC3FCBC1F1862B5004FFBC4 /* ASTransitMonitorUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BAC3FC9F1F1862B5004FFBC4 /* ASTransitMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3FCA01F1862B5004FFBC4 /* AppDelegate.swift */,
+				BAC3FCA21F1862B5004FFBC4 /* ViewController.swift */,
+				BABC66D41F18693300707FE1 /* ASTransitMonitorManager.h */,
+				BABC66D51F18693300707FE1 /* ASTransitMonitorManager.m */,
+				BAC3FCA41F1862B5004FFBC4 /* Main.storyboard */,
+				BAC3FCA71F1862B5004FFBC4 /* Assets.xcassets */,
+				BAC3FCA91F1862B5004FFBC4 /* LaunchScreen.storyboard */,
+				BAC3FCAC1F1862B5004FFBC4 /* Info.plist */,
+				BAC3FCCE1F18637D004FFBC4 /* ASTransitMonitor-Bridging-Header.h */,
+			);
+			path = ASTransitMonitor;
+			sourceTree = "<group>";
+		};
+		BAC3FCB41F1862B5004FFBC4 /* ASTransitMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3FCB51F1862B5004FFBC4 /* ASTransitMonitorTests.swift */,
+				BAC3FCB71F1862B5004FFBC4 /* Info.plist */,
+			);
+			path = ASTransitMonitorTests;
+			sourceTree = "<group>";
+		};
+		BAC3FCBF1F1862B5004FFBC4 /* ASTransitMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BAC3FCC01F1862B5004FFBC4 /* ASTransitMonitorUITests.swift */,
+				BAC3FCC21F1862B5004FFBC4 /* Info.plist */,
+			);
+			path = ASTransitMonitorUITests;
+			sourceTree = "<group>";
+		};
+		E74E9F7ACD41D5B766665CA9 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				2A67E9474417697DE577AA9F /* Pods_ASTransitMonitor.framework */,
+				511FA04A50933567B89C4ABA /* Pods_ASTransitMonitorTests.framework */,
+				D589787CC596265AB04AD541 /* Pods_ASTransitMonitorUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BAC3FC9C1F1862B5004FFBC4 /* ASTransitMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC3FCC51F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitor" */;
+			buildPhases = (
+				19F9393E1C084E393BD0115E /* [CP] Check Pods Manifest.lock */,
+				BAC3FC991F1862B5004FFBC4 /* Sources */,
+				BAC3FC9A1F1862B5004FFBC4 /* Frameworks */,
+				BAC3FC9B1F1862B5004FFBC4 /* Resources */,
+				8D17D1C8B29636CB33105924 /* [CP] Embed Pods Frameworks */,
+				A5BCEECF2774B1CBFF08AE96 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASTransitMonitor;
+			productName = ASTransitMonitor;
+			productReference = BAC3FC9D1F1862B5004FFBC4 /* ASTransitMonitor.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BAC3FCB01F1862B5004FFBC4 /* ASTransitMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC3FCC81F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitorTests" */;
+			buildPhases = (
+				FAC1DD28BF8DA3E65D9CEFE3 /* [CP] Check Pods Manifest.lock */,
+				BAC3FCAD1F1862B5004FFBC4 /* Sources */,
+				BAC3FCAE1F1862B5004FFBC4 /* Frameworks */,
+				BAC3FCAF1F1862B5004FFBC4 /* Resources */,
+				CCC33B4FE54A0810F0616D81 /* [CP] Embed Pods Frameworks */,
+				9D2B1CC943A48A18F5694E34 /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC3FCB31F1862B5004FFBC4 /* PBXTargetDependency */,
+			);
+			name = ASTransitMonitorTests;
+			productName = ASTransitMonitorTests;
+			productReference = BAC3FCB11F1862B5004FFBC4 /* ASTransitMonitorTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BAC3FCBB1F1862B5004FFBC4 /* ASTransitMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BAC3FCCB1F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitorUITests" */;
+			buildPhases = (
+				7494020266659C8B27E5834B /* [CP] Check Pods Manifest.lock */,
+				BAC3FCB81F1862B5004FFBC4 /* Sources */,
+				BAC3FCB91F1862B5004FFBC4 /* Frameworks */,
+				BAC3FCBA1F1862B5004FFBC4 /* Resources */,
+				B15AD083820FAA899143531C /* [CP] Embed Pods Frameworks */,
+				21D7B939AA93C2ED4FF06E6A /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BAC3FCBE1F1862B5004FFBC4 /* PBXTargetDependency */,
+			);
+			name = ASTransitMonitorUITests;
+			productName = ASTransitMonitorUITests;
+			productReference = BAC3FCBC1F1862B5004FFBC4 /* ASTransitMonitorUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BAC3FC951F1862B5004FFBC4 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0830;
+				LastUpgradeCheck = 0830;
+				ORGANIZATIONNAME = JHH;
+				TargetAttributes = {
+					BAC3FC9C1F1862B5004FFBC4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						DevelopmentTeam = 28K9LD277B;
+						LastSwiftMigration = 0830;
+						ProvisioningStyle = Automatic;
+					};
+					BAC3FCB01F1862B5004FFBC4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAC3FC9C1F1862B5004FFBC4;
+					};
+					BAC3FCBB1F1862B5004FFBC4 = {
+						CreatedOnToolsVersion = 8.3.3;
+						ProvisioningStyle = Automatic;
+						TestTargetID = BAC3FC9C1F1862B5004FFBC4;
+					};
+				};
+			};
+			buildConfigurationList = BAC3FC981F1862B5004FFBC4 /* Build configuration list for PBXProject "ASTransitMonitor" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BAC3FC941F1862B5004FFBC4;
+			productRefGroup = BAC3FC9E1F1862B5004FFBC4 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BAC3FC9C1F1862B5004FFBC4 /* ASTransitMonitor */,
+				BAC3FCB01F1862B5004FFBC4 /* ASTransitMonitorTests */,
+				BAC3FCBB1F1862B5004FFBC4 /* ASTransitMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BAC3FC9B1F1862B5004FFBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3FCAB1F1862B5004FFBC4 /* LaunchScreen.storyboard in Resources */,
+				BAC3FCA81F1862B5004FFBC4 /* Assets.xcassets in Resources */,
+				BAC3FCA61F1862B5004FFBC4 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCAF1F1862B5004FFBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCBA1F1862B5004FFBC4 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		19F9393E1C084E393BD0115E /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		21D7B939AA93C2ED4FF06E6A /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		7494020266659C8B27E5834B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		8D17D1C8B29636CB33105924 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		9D2B1CC943A48A18F5694E34 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		A5BCEECF2774B1CBFF08AE96 /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		B15AD083820FAA899143531C /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		CCC33B4FE54A0810F0616D81 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		FAC1DD28BF8DA3E65D9CEFE3 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_ROOT}/../Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BAC3FC991F1862B5004FFBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3FCA31F1862B5004FFBC4 /* ViewController.swift in Sources */,
+				BABC66D61F18693300707FE1 /* ASTransitMonitorManager.m in Sources */,
+				BAC3FCA11F1862B5004FFBC4 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCAD1F1862B5004FFBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3FCB61F1862B5004FFBC4 /* ASTransitMonitorTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BAC3FCB81F1862B5004FFBC4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BAC3FCC11F1862B5004FFBC4 /* ASTransitMonitorUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BAC3FCB31F1862B5004FFBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC3FC9C1F1862B5004FFBC4 /* ASTransitMonitor */;
+			targetProxy = BAC3FCB21F1862B5004FFBC4 /* PBXContainerItemProxy */;
+		};
+		BAC3FCBE1F1862B5004FFBC4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BAC3FC9C1F1862B5004FFBC4 /* ASTransitMonitor */;
+			targetProxy = BAC3FCBD1F1862B5004FFBC4 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BAC3FCA41F1862B5004FFBC4 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC3FCA51F1862B5004FFBC4 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BAC3FCA91F1862B5004FFBC4 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BAC3FCAA1F1862B5004FFBC4 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BAC3FCC31F1862B5004FFBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BAC3FCC41F1862B5004FFBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BAC3FCC61F1862B5004FFBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 5CF4E03635D839FBE3D778AD /* Pods-ASTransitMonitor.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 28K9LD277B;
+				INFOPLIST_FILE = ASTransitMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASTransitMonitor/ASTransitMonitor-Bridging-Header.h";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Debug;
+		};
+		BAC3FCC71F1862B5004FFBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 80782222240B996D6E800450 /* Pods-ASTransitMonitor.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CLANG_ENABLE_MODULES = YES;
+				DEVELOPMENT_TEAM = 28K9LD277B;
+				INFOPLIST_FILE = ASTransitMonitor/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitor;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "ASTransitMonitor/ASTransitMonitor-Bridging-Header.h";
+				SWIFT_VERSION = 3.0;
+			};
+			name = Release;
+		};
+		BAC3FCC91F1862B5004FFBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A7843D342DFCCA61A50BF594 /* Pods-ASTransitMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASTransitMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASTransitMonitor.app/ASTransitMonitor";
+			};
+			name = Debug;
+		};
+		BAC3FCCA1F1862B5004FFBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC81F533D082E2DB5DA25876 /* Pods-ASTransitMonitorTests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = ASTransitMonitorTests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitorTests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ASTransitMonitor.app/ASTransitMonitor";
+			};
+			name = Release;
+		};
+		BAC3FCCC1F1862B5004FFBC4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = A56C8A5525278C8A11268C39 /* Pods-ASTransitMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ASTransitMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ASTransitMonitor;
+			};
+			name = Debug;
+		};
+		BAC3FCCD1F1862B5004FFBC4 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C0BF6CAEE03DBF0F0F710253 /* Pods-ASTransitMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				INFOPLIST_FILE = ASTransitMonitorUITests/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.JHH.ASTransitMonitorUITests;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 3.0;
+				TEST_TARGET_NAME = ASTransitMonitor;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BAC3FC981F1862B5004FFBC4 /* Build configuration list for PBXProject "ASTransitMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC3FCC31F1862B5004FFBC4 /* Debug */,
+				BAC3FCC41F1862B5004FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC3FCC51F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC3FCC61F1862B5004FFBC4 /* Debug */,
+				BAC3FCC71F1862B5004FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC3FCC81F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC3FCC91F1862B5004FFBC4 /* Debug */,
+				BAC3FCCA1F1862B5004FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BAC3FCCB1F1862B5004FFBC4 /* Build configuration list for PBXNativeTarget "ASTransitMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BAC3FCCC1F1862B5004FFBC4 /* Debug */,
+				BAC3FCCD1F1862B5004FFBC4 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = BAC3FC951F1862B5004FFBC4 /* Project object */;
+}

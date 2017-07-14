@@ -1,0 +1,6 @@
+framework module ASBatteryMonitor {
+  umbrella header "ASBatteryMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

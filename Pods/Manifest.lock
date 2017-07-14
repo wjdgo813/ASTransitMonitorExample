@@ -1,0 +1,28 @@
+PODS:
+  - AmbientStatus (0.1.0):
+    - AmbientStatus/BatteryMonitor (= 0.1.0)
+    - AmbientStatus/LocationMonitor (= 0.1.0)
+    - AmbientStatus/TransitMonitor (= 0.1.0)
+  - AmbientStatus/BatteryMonitor (0.1.0):
+    - ASBatteryMonitor
+  - AmbientStatus/LocationMonitor (0.1.0):
+    - ASLocationMonitor
+  - AmbientStatus/TransitMonitor (0.1.0):
+    - ASTransitMonitor
+  - ASBatteryMonitor (0.1.0)
+  - ASLocationMonitor (0.1.0)
+  - ASTransitMonitor (0.1.0):
+    - ASLocationMonitor
+
+DEPENDENCIES:
+  - AmbientStatus (~> 0.1.0)
+
+SPEC CHECKSUMS:
+  AmbientStatus: 0a1236e8e8cc6c1e2c899f6e1820d2741f03b58b
+  ASBatteryMonitor: a3990eceaa9f9625d3af29ed9aafb1bf4db882a6
+  ASLocationMonitor: 452524065d0130f6137aaca4b3e76367c97360b8
+  ASTransitMonitor: bd4a9a0481beeb6af5a21dbfe9af97024961348b
+
+PODFILE CHECKSUM: 8f1ceaa975749994d60f1e7296ed95747e5a8a51
+
+COCOAPODS: 1.1.1

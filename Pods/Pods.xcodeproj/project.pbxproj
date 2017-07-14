@@ -1,0 +1,1225 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0B321913E00A8AAF2953603F9B0E1720 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		0C01A93E4017FBED0229B08E6C6EDADC /* ASTransitMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = E2D145A4D709C80EFBB539B9B93B3F44 /* ASTransitMonitor-dummy.m */; };
+		0F34C9BF704F2C4EDABE5A36D9CBFD4D /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		1EE88FB6BB7E83B8BB0E357E10C63056 /* ASLocationMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 79D066685936C4F0686BD9D9D611240C /* ASLocationMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		236341044548FE3BB897F2AFE3472912 /* ASTransitMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 138A1A6E767DD1E019F1CC50354B7355 /* ASTransitMonitor.m */; };
+		23B13CD069C109CA3C9361A8E1E9508E /* ASLocationMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 9E57156A507D87E4A8887E5582E78FEA /* ASLocationMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325DA28D7DB64D4213A7A8C385F8E3B1 /* ASTransitMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 17628588124E07CC1076EDE24EF8B681 /* ASTransitMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		490439B735D4AB374E8A2E0489B1EC33 /* Pods-ASTransitMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = DBBF11B5B3443BC8FC042511F260AD76 /* Pods-ASTransitMonitor-dummy.m */; };
+		49FD599B95B8C56A2DBD9198A0E7ECD5 /* Pods-ASTransitMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = F1499389A47FD1610D05479C0CD47586 /* Pods-ASTransitMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		56E8262283BEBCBBB30AF8B0E3EA5BD8 /* Pods-ASTransitMonitorTests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E078F59DEFEFAD80340B6DC894573B4 /* Pods-ASTransitMonitorTests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6A7B5EBE7EF663A57695D28F06708ED4 /* ASBatteryMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 3E13882F79966F63A8E22027A73E1FD8 /* ASBatteryMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		6AB3C81702C7FCDFFAF2F95FF1F95278 /* ASBatteryMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3FECDEDC0104800538274D61C4431CE5 /* ASBatteryMonitor-dummy.m */; };
+		6D935FD744A86C115FCD3789F71D1007 /* Pods-ASTransitMonitorUITests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5E2506EC3A32381AF42F93BA452BA5C9 /* Pods-ASTransitMonitorUITests-dummy.m */; };
+		7DF7EB96D206673E3D599B507BB4F167 /* ASLocationMonitor-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = BB93815993DD7F2038F1A60EE81BAE4F /* ASLocationMonitor-dummy.m */; };
+		8D14D809EC39F40FDC116429E8A79FAD /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		8F249BD5696FE902E8AC3FC25BCBBE09 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		9517F798921260611F6A8810049B475E /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		A0E38139B4EA697DD6DDD728E5A01842 /* ASLocationMonitor.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 4E908F222B3A532F3CF495C072B81483 /* ASLocationMonitor.framework */; };
+		A200FF54DDB0C1B86935CE499864FC0F /* CoreMotion.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B7C365AACE8BFA9688862CE9B4FE1383 /* CoreMotion.framework */; };
+		A52A6C91262C6A99ACF303292A8FDE18 /* ASBatteryMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = AC9D4DC2823C69F67032F8B214EDF3EC /* ASBatteryMonitor.m */; };
+		AB1EA3A7BF682FA1467A14E95CD10CAA /* Pods-ASTransitMonitorUITests-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 7569F07EB5B4ECC81E4A8089C16467BA /* Pods-ASTransitMonitorUITests-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AD70E18561181A014873F95D66702443 /* ASTransitMonitor-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 983896702D6E9164A0817075DF6F2C76 /* ASTransitMonitor-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CB05844E0D152995FA8BCB9F2375821A /* ASBatteryMonitor.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F73C47C89768CBF617AF864D012B67C /* ASBatteryMonitor.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		EEF7A70F8CD881BAEB20296204F43223 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = BFB0C78E45DA2040E9F7521946676132 /* CoreLocation.framework */; };
+		EFDC9A007750C4FECF46271FA52E67CB /* ASLocationMonitor.m in Sources */ = {isa = PBXBuildFile; fileRef = 3A15CB9A13607FC1852B9BB17A58127E /* ASLocationMonitor.m */; };
+		FA627D87164B448CB49F6B026AFAB102 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */; };
+		FF0EFADCEEA99CB14AA2403E11129525 /* Pods-ASTransitMonitorTests-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BF52F080B6268EAFE3ADBD565FE219C /* Pods-ASTransitMonitorTests-dummy.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0F4175F88CC44834977DA1F1755C8379 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 78DCAB5A2ADDAEDDCF36D0A9A18DB97B;
+			remoteInfo = ASBatteryMonitor;
+		};
+		2228B75F6DF609435BD94875C3E40E98 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 645C12B181BAFA371FDBD6D3EEC2225F;
+			remoteInfo = ASTransitMonitor;
+		};
+		859AE704DB8CB091DC123B9E1066DAC7 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A03CAB7EDDF9E704D4745B45550C9D;
+			remoteInfo = ASLocationMonitor;
+		};
+		CEDA213F5839E58272CD59114AFCFEFA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 41A03CAB7EDDF9E704D4745B45550C9D;
+			remoteInfo = ASLocationMonitor;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0B3817EC44E7536F012FFF591614743F /* ASBatteryMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASBatteryMonitor.modulemap; sourceTree = "<group>"; };
+		115AC0F695170032F2DA8B2736C2FCFA /* Pods-ASTransitMonitorUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitorUITests.release.xcconfig"; sourceTree = "<group>"; };
+		138A1A6E767DD1E019F1CC50354B7355 /* ASTransitMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASTransitMonitor.m; path = Classes/ASTransitMonitor.m; sourceTree = "<group>"; };
+		17628588124E07CC1076EDE24EF8B681 /* ASTransitMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASTransitMonitor.h; path = Classes/ASTransitMonitor.h; sourceTree = "<group>"; };
+		1BDC258003F098F00C8915287F19CFA1 /* Pods-ASTransitMonitorUITests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ASTransitMonitorUITests.modulemap"; sourceTree = "<group>"; };
+		1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		20DC4D598BEE7FDD935272BC516FA06B /* Pods-ASTransitMonitorTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitorTests.release.xcconfig"; sourceTree = "<group>"; };
+		2AEBCECA1B38834E5DFF0F54B9422E15 /* Pods_ASTransitMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASTransitMonitor.framework; path = "Pods-ASTransitMonitor.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		2E8A45ED086799AE22F6741CEBD9A6A2 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		33AA6A92B91E0CDF1534612382FBD49B /* ASBatteryMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASBatteryMonitor.framework; path = ASBatteryMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		3444DD551CEB8761DBB0790F43288FF5 /* Pods-ASTransitMonitorUITests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASTransitMonitorUITests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		34564FEF2E47F8687621C51EAF0F286B /* Pods-ASTransitMonitor.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitor.release.xcconfig"; sourceTree = "<group>"; };
+		3490B772228E088CE00797455A58BE41 /* ASTransitMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASTransitMonitor.xcconfig; sourceTree = "<group>"; };
+		3A15CB9A13607FC1852B9BB17A58127E /* ASLocationMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASLocationMonitor.m; path = Classes/ASLocationMonitor.m; sourceTree = "<group>"; };
+		3E13882F79966F63A8E22027A73E1FD8 /* ASBatteryMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBatteryMonitor-umbrella.h"; sourceTree = "<group>"; };
+		3FECDEDC0104800538274D61C4431CE5 /* ASBatteryMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASBatteryMonitor-dummy.m"; sourceTree = "<group>"; };
+		4221EB20527B18C9CD386888B34F2B3B /* Pods-ASTransitMonitorUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitorUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		4E908F222B3A532F3CF495C072B81483 /* ASLocationMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = ASLocationMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		4E9DB14410D62D020CC44211E5F75554 /* ASBatteryMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASBatteryMonitor.xcconfig; sourceTree = "<group>"; };
+		507D238F145F66321BBC303B49022F54 /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		58A44236A9FC9F83D2C03C2DA3B24943 /* ASLocationMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLocationMonitor-prefix.pch"; sourceTree = "<group>"; };
+		5970AFDB3058804B8EF918CBC5C4D338 /* Pods-ASTransitMonitorUITests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitorUITests-frameworks.sh"; sourceTree = "<group>"; };
+		5E2506EC3A32381AF42F93BA452BA5C9 /* Pods-ASTransitMonitorUITests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASTransitMonitorUITests-dummy.m"; sourceTree = "<group>"; };
+		6266DE8EC146FC016E49E90C8B58425C /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		62F95B92FBD05883ABFBB0AA817A43E4 /* Pods_ASTransitMonitorUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASTransitMonitorUITests.framework; path = "Pods-ASTransitMonitorUITests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		69E85FF3E4DD6473F7AC3FCE7BBD219F /* Pods-ASTransitMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ASTransitMonitor.modulemap"; sourceTree = "<group>"; };
+		6ACE8D98612366D69F7C4F83F6D90C4B /* Pods-ASTransitMonitorTests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASTransitMonitorTests-acknowledgements.plist"; sourceTree = "<group>"; };
+		6B792635AB56BA71197565CD1C4D6141 /* Pods_ASTransitMonitorTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = Pods_ASTransitMonitorTests.framework; path = "Pods-ASTransitMonitorTests.framework"; sourceTree = BUILT_PRODUCTS_DIR; };
+		6BF52F080B6268EAFE3ADBD565FE219C /* Pods-ASTransitMonitorTests-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASTransitMonitorTests-dummy.m"; sourceTree = "<group>"; };
+		6E078F59DEFEFAD80340B6DC894573B4 /* Pods-ASTransitMonitorTests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASTransitMonitorTests-umbrella.h"; sourceTree = "<group>"; };
+		7569F07EB5B4ECC81E4A8089C16467BA /* Pods-ASTransitMonitorUITests-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASTransitMonitorUITests-umbrella.h"; sourceTree = "<group>"; };
+		75C1DE0E642C887450CE3C23F890D94D /* ASLocationMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASLocationMonitor.modulemap; sourceTree = "<group>"; };
+		79D066685936C4F0686BD9D9D611240C /* ASLocationMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASLocationMonitor.h; path = Classes/ASLocationMonitor.h; sourceTree = "<group>"; };
+		80EC4A1E4763034DE64EBBFE2888DDCC /* ASTransitMonitor.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = ASTransitMonitor.modulemap; sourceTree = "<group>"; };
+		90DDCF8AF9B1640FBF3CE686B5EFD31F /* ASLocationMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASLocationMonitor.framework; path = ASLocationMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		983896702D6E9164A0817075DF6F2C76 /* ASTransitMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTransitMonitor-umbrella.h"; sourceTree = "<group>"; };
+		9E57156A507D87E4A8887E5582E78FEA /* ASLocationMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASLocationMonitor-umbrella.h"; sourceTree = "<group>"; };
+		9F73C47C89768CBF617AF864D012B67C /* ASBatteryMonitor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = ASBatteryMonitor.h; path = Classes/ASBatteryMonitor.h; sourceTree = "<group>"; };
+		AC9D4DC2823C69F67032F8B214EDF3EC /* ASBatteryMonitor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = ASBatteryMonitor.m; path = Classes/ASBatteryMonitor.m; sourceTree = "<group>"; };
+		AD5442540B050CD30D9363B28C7C2BFD /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		AD74AEA23B2AC0EFD462C6928D10562D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B01366FE2F1AE70A850E7B4DA5A913B8 /* Pods-ASTransitMonitorUITests-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASTransitMonitorUITests-acknowledgements.plist"; sourceTree = "<group>"; };
+		B0DA7ADF6D40743ED105A79E91FB0977 /* Pods-ASTransitMonitorTests.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; path = "Pods-ASTransitMonitorTests.modulemap"; sourceTree = "<group>"; };
+		B7C365AACE8BFA9688862CE9B4FE1383 /* CoreMotion.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreMotion.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreMotion.framework; sourceTree = DEVELOPER_DIR; };
+		BB93815993DD7F2038F1A60EE81BAE4F /* ASLocationMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASLocationMonitor-dummy.m"; sourceTree = "<group>"; };
+		BFB0C78E45DA2040E9F7521946676132 /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.0.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		C09D087B6ED9DB0D75F10C99F35CD232 /* Pods-ASTransitMonitorTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitorTests.debug.xcconfig"; sourceTree = "<group>"; };
+		C5070978DA78D2E7EB62608D5848EA2D /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		C644024B8EE9F8B95185C770D5403054 /* Pods-ASTransitMonitor-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASTransitMonitor-acknowledgements.markdown"; sourceTree = "<group>"; };
+		CA388839AC1967E4931588D21A154914 /* Pods-ASTransitMonitorTests-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitorTests-frameworks.sh"; sourceTree = "<group>"; };
+		CDF09827DD37F18E2D5FD3122B5971C9 /* Pods-ASTransitMonitorTests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitorTests-resources.sh"; sourceTree = "<group>"; };
+		D88AB582F14B6FD5B0C9C7337D93494C /* Pods-ASTransitMonitor-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitor-frameworks.sh"; sourceTree = "<group>"; };
+		DBBF11B5B3443BC8FC042511F260AD76 /* Pods-ASTransitMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-ASTransitMonitor-dummy.m"; sourceTree = "<group>"; };
+		E0ACD28ABDB97C161FA93DA41BCEFA61 /* Pods-ASTransitMonitor-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitor-resources.sh"; sourceTree = "<group>"; };
+		E2D145A4D709C80EFBB539B9B93B3F44 /* ASTransitMonitor-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "ASTransitMonitor-dummy.m"; sourceTree = "<group>"; };
+		E4062BE5FEC1A8EE09A0C14CAE27299F /* ASTransitMonitor.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; name = ASTransitMonitor.framework; path = ASTransitMonitor.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		E4D83FF1922B2C47FC551ED344AED4C8 /* ASLocationMonitor.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = ASLocationMonitor.xcconfig; sourceTree = "<group>"; };
+		E8983743F8040E8C41079EF955814144 /* ASBatteryMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASBatteryMonitor-prefix.pch"; sourceTree = "<group>"; };
+		ED14D66BED8AC81D92DEBA695CF0626A /* Pods-ASTransitMonitorUITests-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-ASTransitMonitorUITests-resources.sh"; sourceTree = "<group>"; };
+		F1499389A47FD1610D05479C0CD47586 /* Pods-ASTransitMonitor-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-ASTransitMonitor-umbrella.h"; sourceTree = "<group>"; };
+		F7AEF1D1E5554AD82B91B0A6D69E758E /* ASTransitMonitor-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "ASTransitMonitor-prefix.pch"; sourceTree = "<group>"; };
+		FBD15816C94B0D3F15A9E9D6B8566F9E /* Pods-ASTransitMonitor-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-ASTransitMonitor-acknowledgements.plist"; sourceTree = "<group>"; };
+		FD612C0BB8799CF877F85E2B195E43C8 /* Pods-ASTransitMonitorTests-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-ASTransitMonitorTests-acknowledgements.markdown"; sourceTree = "<group>"; };
+		FEABD94977AB65112D799CA6032292D7 /* Pods-ASTransitMonitor.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-ASTransitMonitor.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		75DE5E26A4996A6BD36F170E7C4611AE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0B321913E00A8AAF2953603F9B0E1720 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		799A3042EB0B26AA4336DD98A13E44DC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8D14D809EC39F40FDC116429E8A79FAD /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7C4D04C13C5BC3B8E1F4822784929DBB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				EEF7A70F8CD881BAEB20296204F43223 /* CoreLocation.framework in Frameworks */,
+				FA627D87164B448CB49F6B026AFAB102 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		972EEFCC01A658C109EF14A5B317AE71 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				9517F798921260611F6A8810049B475E /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		A590F770D40F429BB6CB2AC5DD4D75F6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A0E38139B4EA697DD6DDD728E5A01842 /* ASLocationMonitor.framework in Frameworks */,
+				A200FF54DDB0C1B86935CE499864FC0F /* CoreMotion.framework in Frameworks */,
+				0F34C9BF704F2C4EDABE5A36D9CBFD4D /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		C33F3126C1C66E59F59A6602EB774CE7 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8F249BD5696FE902E8AC3FC25BCBBE09 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0D574068EE34448C9EA9DAD42351BFE3 /* ASBatteryMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				9F73C47C89768CBF617AF864D012B67C /* ASBatteryMonitor.h */,
+				AC9D4DC2823C69F67032F8B214EDF3EC /* ASBatteryMonitor.m */,
+				C2671F0C2C6F00986DD5272C2CBD7885 /* Support Files */,
+			);
+			name = ASBatteryMonitor;
+			path = ASBatteryMonitor;
+			sourceTree = "<group>";
+		};
+		2B6D0569F8E6B45CBEDCEBA401AD97AA /* Pods-ASTransitMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				6266DE8EC146FC016E49E90C8B58425C /* Info.plist */,
+				69E85FF3E4DD6473F7AC3FCE7BBD219F /* Pods-ASTransitMonitor.modulemap */,
+				C644024B8EE9F8B95185C770D5403054 /* Pods-ASTransitMonitor-acknowledgements.markdown */,
+				FBD15816C94B0D3F15A9E9D6B8566F9E /* Pods-ASTransitMonitor-acknowledgements.plist */,
+				DBBF11B5B3443BC8FC042511F260AD76 /* Pods-ASTransitMonitor-dummy.m */,
+				D88AB582F14B6FD5B0C9C7337D93494C /* Pods-ASTransitMonitor-frameworks.sh */,
+				E0ACD28ABDB97C161FA93DA41BCEFA61 /* Pods-ASTransitMonitor-resources.sh */,
+				F1499389A47FD1610D05479C0CD47586 /* Pods-ASTransitMonitor-umbrella.h */,
+				FEABD94977AB65112D799CA6032292D7 /* Pods-ASTransitMonitor.debug.xcconfig */,
+				34564FEF2E47F8687621C51EAF0F286B /* Pods-ASTransitMonitor.release.xcconfig */,
+			);
+			name = "Pods-ASTransitMonitor";
+			path = "Target Support Files/Pods-ASTransitMonitor";
+			sourceTree = "<group>";
+		};
+		3480B81AD9A6E7F675AC5E595DDA68C1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				33AA6A92B91E0CDF1534612382FBD49B /* ASBatteryMonitor.framework */,
+				90DDCF8AF9B1640FBF3CE686B5EFD31F /* ASLocationMonitor.framework */,
+				E4062BE5FEC1A8EE09A0C14CAE27299F /* ASTransitMonitor.framework */,
+				2AEBCECA1B38834E5DFF0F54B9422E15 /* Pods_ASTransitMonitor.framework */,
+				6B792635AB56BA71197565CD1C4D6141 /* Pods_ASTransitMonitorTests.framework */,
+				62F95B92FBD05883ABFBB0AA817A43E4 /* Pods_ASTransitMonitorUITests.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		3E2A092F0CD9AAAC07A88A5FE8F67928 /* Pods-ASTransitMonitorTests */ = {
+			isa = PBXGroup;
+			children = (
+				AD74AEA23B2AC0EFD462C6928D10562D /* Info.plist */,
+				B0DA7ADF6D40743ED105A79E91FB0977 /* Pods-ASTransitMonitorTests.modulemap */,
+				FD612C0BB8799CF877F85E2B195E43C8 /* Pods-ASTransitMonitorTests-acknowledgements.markdown */,
+				6ACE8D98612366D69F7C4F83F6D90C4B /* Pods-ASTransitMonitorTests-acknowledgements.plist */,
+				6BF52F080B6268EAFE3ADBD565FE219C /* Pods-ASTransitMonitorTests-dummy.m */,
+				CA388839AC1967E4931588D21A154914 /* Pods-ASTransitMonitorTests-frameworks.sh */,
+				CDF09827DD37F18E2D5FD3122B5971C9 /* Pods-ASTransitMonitorTests-resources.sh */,
+				6E078F59DEFEFAD80340B6DC894573B4 /* Pods-ASTransitMonitorTests-umbrella.h */,
+				C09D087B6ED9DB0D75F10C99F35CD232 /* Pods-ASTransitMonitorTests.debug.xcconfig */,
+				20DC4D598BEE7FDD935272BC516FA06B /* Pods-ASTransitMonitorTests.release.xcconfig */,
+			);
+			name = "Pods-ASTransitMonitorTests";
+			path = "Target Support Files/Pods-ASTransitMonitorTests";
+			sourceTree = "<group>";
+		};
+		49FAFDA380814047520B099C3CBB333D /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				BFB0C78E45DA2040E9F7521946676132 /* CoreLocation.framework */,
+				B7C365AACE8BFA9688862CE9B4FE1383 /* CoreMotion.framework */,
+				1CB852E636B18FEF88402EC0AF1A40A1 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		53B9FD1578CCAAF59ED0E14AC4E02E68 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				8416505E0D65AB2A8269F77FAB5F2604 /* AmbientStatus */,
+				0D574068EE34448C9EA9DAD42351BFE3 /* ASBatteryMonitor */,
+				B21EB06F644CC0D558FB0FE5D27CE3BA /* ASLocationMonitor */,
+				F940772D0E54CB4E197A685405170271 /* ASTransitMonitor */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
+				C9DF3BC10F27CB76522D3516F96ED8DD /* Frameworks */,
+				53B9FD1578CCAAF59ED0E14AC4E02E68 /* Pods */,
+				3480B81AD9A6E7F675AC5E595DDA68C1 /* Products */,
+				98587C61641BA71403764E2BD5CBE71E /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8416505E0D65AB2A8269F77FAB5F2604 /* AmbientStatus */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = AmbientStatus;
+			path = AmbientStatus;
+			sourceTree = "<group>";
+		};
+		98587C61641BA71403764E2BD5CBE71E /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				2B6D0569F8E6B45CBEDCEBA401AD97AA /* Pods-ASTransitMonitor */,
+				3E2A092F0CD9AAAC07A88A5FE8F67928 /* Pods-ASTransitMonitorTests */,
+				DA3E3C6CB5B17E411D90BDA58F986D41 /* Pods-ASTransitMonitorUITests */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		B21EB06F644CC0D558FB0FE5D27CE3BA /* ASLocationMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				79D066685936C4F0686BD9D9D611240C /* ASLocationMonitor.h */,
+				3A15CB9A13607FC1852B9BB17A58127E /* ASLocationMonitor.m */,
+				BE654AF4B38C3CDFEBE8FB5DB0335A27 /* Support Files */,
+			);
+			name = ASLocationMonitor;
+			path = ASLocationMonitor;
+			sourceTree = "<group>";
+		};
+		BE654AF4B38C3CDFEBE8FB5DB0335A27 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				75C1DE0E642C887450CE3C23F890D94D /* ASLocationMonitor.modulemap */,
+				E4D83FF1922B2C47FC551ED344AED4C8 /* ASLocationMonitor.xcconfig */,
+				BB93815993DD7F2038F1A60EE81BAE4F /* ASLocationMonitor-dummy.m */,
+				58A44236A9FC9F83D2C03C2DA3B24943 /* ASLocationMonitor-prefix.pch */,
+				9E57156A507D87E4A8887E5582E78FEA /* ASLocationMonitor-umbrella.h */,
+				AD5442540B050CD30D9363B28C7C2BFD /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASLocationMonitor";
+			sourceTree = "<group>";
+		};
+		C2671F0C2C6F00986DD5272C2CBD7885 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0B3817EC44E7536F012FFF591614743F /* ASBatteryMonitor.modulemap */,
+				4E9DB14410D62D020CC44211E5F75554 /* ASBatteryMonitor.xcconfig */,
+				3FECDEDC0104800538274D61C4431CE5 /* ASBatteryMonitor-dummy.m */,
+				E8983743F8040E8C41079EF955814144 /* ASBatteryMonitor-prefix.pch */,
+				3E13882F79966F63A8E22027A73E1FD8 /* ASBatteryMonitor-umbrella.h */,
+				2E8A45ED086799AE22F6741CEBD9A6A2 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASBatteryMonitor";
+			sourceTree = "<group>";
+		};
+		C9DF3BC10F27CB76522D3516F96ED8DD /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				4E908F222B3A532F3CF495C072B81483 /* ASLocationMonitor.framework */,
+				49FAFDA380814047520B099C3CBB333D /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		D57F8FF6B4F6F8B700DA936D7EA6DB9D /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				80EC4A1E4763034DE64EBBFE2888DDCC /* ASTransitMonitor.modulemap */,
+				3490B772228E088CE00797455A58BE41 /* ASTransitMonitor.xcconfig */,
+				E2D145A4D709C80EFBB539B9B93B3F44 /* ASTransitMonitor-dummy.m */,
+				F7AEF1D1E5554AD82B91B0A6D69E758E /* ASTransitMonitor-prefix.pch */,
+				983896702D6E9164A0817075DF6F2C76 /* ASTransitMonitor-umbrella.h */,
+				507D238F145F66321BBC303B49022F54 /* Info.plist */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/ASTransitMonitor";
+			sourceTree = "<group>";
+		};
+		DA3E3C6CB5B17E411D90BDA58F986D41 /* Pods-ASTransitMonitorUITests */ = {
+			isa = PBXGroup;
+			children = (
+				C5070978DA78D2E7EB62608D5848EA2D /* Info.plist */,
+				1BDC258003F098F00C8915287F19CFA1 /* Pods-ASTransitMonitorUITests.modulemap */,
+				3444DD551CEB8761DBB0790F43288FF5 /* Pods-ASTransitMonitorUITests-acknowledgements.markdown */,
+				B01366FE2F1AE70A850E7B4DA5A913B8 /* Pods-ASTransitMonitorUITests-acknowledgements.plist */,
+				5E2506EC3A32381AF42F93BA452BA5C9 /* Pods-ASTransitMonitorUITests-dummy.m */,
+				5970AFDB3058804B8EF918CBC5C4D338 /* Pods-ASTransitMonitorUITests-frameworks.sh */,
+				ED14D66BED8AC81D92DEBA695CF0626A /* Pods-ASTransitMonitorUITests-resources.sh */,
+				7569F07EB5B4ECC81E4A8089C16467BA /* Pods-ASTransitMonitorUITests-umbrella.h */,
+				4221EB20527B18C9CD386888B34F2B3B /* Pods-ASTransitMonitorUITests.debug.xcconfig */,
+				115AC0F695170032F2DA8B2736C2FCFA /* Pods-ASTransitMonitorUITests.release.xcconfig */,
+			);
+			name = "Pods-ASTransitMonitorUITests";
+			path = "Target Support Files/Pods-ASTransitMonitorUITests";
+			sourceTree = "<group>";
+		};
+		F940772D0E54CB4E197A685405170271 /* ASTransitMonitor */ = {
+			isa = PBXGroup;
+			children = (
+				17628588124E07CC1076EDE24EF8B681 /* ASTransitMonitor.h */,
+				138A1A6E767DD1E019F1CC50354B7355 /* ASTransitMonitor.m */,
+				D57F8FF6B4F6F8B700DA936D7EA6DB9D /* Support Files */,
+			);
+			name = ASTransitMonitor;
+			path = ASTransitMonitor;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		35E261AEEF58A65833F046EB8143D7FC /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A7B5EBE7EF663A57695D28F06708ED4 /* ASBatteryMonitor-umbrella.h in Headers */,
+				CB05844E0D152995FA8BCB9F2375821A /* ASBatteryMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6519B0ACF1E4703353EC4035F01BA9EF /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				56E8262283BEBCBBB30AF8B0E3EA5BD8 /* Pods-ASTransitMonitorTests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6A07139228E96A3DD5BD3BF1DAACA904 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				49FD599B95B8C56A2DBD9198A0E7ECD5 /* Pods-ASTransitMonitor-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7D6B4F311C06F5855C8427C4ECFF21C4 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				23B13CD069C109CA3C9361A8E1E9508E /* ASLocationMonitor-umbrella.h in Headers */,
+				1EE88FB6BB7E83B8BB0E357E10C63056 /* ASLocationMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		912C393DB14A86414B12F7D7C04D0C26 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AB1EA3A7BF682FA1467A14E95CD10CAA /* Pods-ASTransitMonitorUITests-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		FB90AFB4B708158D7395894FDECF728B /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AD70E18561181A014873F95D66702443 /* ASTransitMonitor-umbrella.h in Headers */,
+				325DA28D7DB64D4213A7A8C385F8E3B1 /* ASTransitMonitor.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0B0FA879D252356CEF6BC7168A32D21B /* Pods-ASTransitMonitorTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 4695724A3D7D7789ADEC1E74A0485C75 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitorTests" */;
+			buildPhases = (
+				1F513D6137D1CCD3B0A3ADD724C6C52D /* Sources */,
+				75DE5E26A4996A6BD36F170E7C4611AE /* Frameworks */,
+				6519B0ACF1E4703353EC4035F01BA9EF /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASTransitMonitorTests";
+			productName = "Pods-ASTransitMonitorTests";
+			productReference = 6B792635AB56BA71197565CD1C4D6141 /* Pods_ASTransitMonitorTests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		18D0F6189616A05FF7D355ECD2302C64 /* Pods-ASTransitMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3E6187618BD7277A337BF43994E31AB0 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitor" */;
+			buildPhases = (
+				D79294C77356FF6714603772C96316D8 /* Sources */,
+				799A3042EB0B26AA4336DD98A13E44DC /* Frameworks */,
+				6A07139228E96A3DD5BD3BF1DAACA904 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5C73744317F426340D245D6088DE58B7 /* PBXTargetDependency */,
+				75403EBF7700A671FAEAB1DA422CFD62 /* PBXTargetDependency */,
+				D8645DEC9B435E3209EFE14976CF3E37 /* PBXTargetDependency */,
+			);
+			name = "Pods-ASTransitMonitor";
+			productName = "Pods-ASTransitMonitor";
+			productReference = 2AEBCECA1B38834E5DFF0F54B9422E15 /* Pods_ASTransitMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		41A03CAB7EDDF9E704D4745B45550C9D /* ASLocationMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 7FBE1D4F9B6DB70C552CD7D448E0A1FB /* Build configuration list for PBXNativeTarget "ASLocationMonitor" */;
+			buildPhases = (
+				57F1A6CAB7D07192D2804C9E094E6832 /* Sources */,
+				7C4D04C13C5BC3B8E1F4822784929DBB /* Frameworks */,
+				7D6B4F311C06F5855C8427C4ECFF21C4 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASLocationMonitor;
+			productName = ASLocationMonitor;
+			productReference = 90DDCF8AF9B1640FBF3CE686B5EFD31F /* ASLocationMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		645C12B181BAFA371FDBD6D3EEC2225F /* ASTransitMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C86D76D8D8B9BB3E4FCDFE2ECD9ECCEE /* Build configuration list for PBXNativeTarget "ASTransitMonitor" */;
+			buildPhases = (
+				829388F97F8EA769D70F2386C0C46873 /* Sources */,
+				A590F770D40F429BB6CB2AC5DD4D75F6 /* Frameworks */,
+				FB90AFB4B708158D7395894FDECF728B /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				A0B08E7364A7F40B0B31DFDE18F1D026 /* PBXTargetDependency */,
+			);
+			name = ASTransitMonitor;
+			productName = ASTransitMonitor;
+			productReference = E4062BE5FEC1A8EE09A0C14CAE27299F /* ASTransitMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		78DCAB5A2ADDAEDDCF36D0A9A18DB97B /* ASBatteryMonitor */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 3A17CA8CF75EF38A7E7AF84D914EFDDE /* Build configuration list for PBXNativeTarget "ASBatteryMonitor" */;
+			buildPhases = (
+				BFD664766D1AF762B17406D2AA1874B4 /* Sources */,
+				C33F3126C1C66E59F59A6602EB774CE7 /* Frameworks */,
+				35E261AEEF58A65833F046EB8143D7FC /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = ASBatteryMonitor;
+			productName = ASBatteryMonitor;
+			productReference = 33AA6A92B91E0CDF1534612382FBD49B /* ASBatteryMonitor.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		D63AB9F5E1FC6F3A2AF9D6D133CF3635 /* Pods-ASTransitMonitorUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = FDFAB565C2B82A69E8B47386F7D9EB00 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitorUITests" */;
+			buildPhases = (
+				95E5BD13819256A3AFD075ACB010E13D /* Sources */,
+				972EEFCC01A658C109EF14A5B317AE71 /* Frameworks */,
+				912C393DB14A86414B12F7D7C04D0C26 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-ASTransitMonitorUITests";
+			productName = "Pods-ASTransitMonitorUITests";
+			productReference = 62F95B92FBD05883ABFBB0AA817A43E4 /* Pods_ASTransitMonitorUITests.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 3480B81AD9A6E7F675AC5E595DDA68C1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				78DCAB5A2ADDAEDDCF36D0A9A18DB97B /* ASBatteryMonitor */,
+				41A03CAB7EDDF9E704D4745B45550C9D /* ASLocationMonitor */,
+				645C12B181BAFA371FDBD6D3EEC2225F /* ASTransitMonitor */,
+				18D0F6189616A05FF7D355ECD2302C64 /* Pods-ASTransitMonitor */,
+				0B0FA879D252356CEF6BC7168A32D21B /* Pods-ASTransitMonitorTests */,
+				D63AB9F5E1FC6F3A2AF9D6D133CF3635 /* Pods-ASTransitMonitorUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1F513D6137D1CCD3B0A3ADD724C6C52D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				FF0EFADCEEA99CB14AA2403E11129525 /* Pods-ASTransitMonitorTests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		57F1A6CAB7D07192D2804C9E094E6832 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7DF7EB96D206673E3D599B507BB4F167 /* ASLocationMonitor-dummy.m in Sources */,
+				EFDC9A007750C4FECF46271FA52E67CB /* ASLocationMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		829388F97F8EA769D70F2386C0C46873 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0C01A93E4017FBED0229B08E6C6EDADC /* ASTransitMonitor-dummy.m in Sources */,
+				236341044548FE3BB897F2AFE3472912 /* ASTransitMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		95E5BD13819256A3AFD075ACB010E13D /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6D935FD744A86C115FCD3789F71D1007 /* Pods-ASTransitMonitorUITests-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BFD664766D1AF762B17406D2AA1874B4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6AB3C81702C7FCDFFAF2F95FF1F95278 /* ASBatteryMonitor-dummy.m in Sources */,
+				A52A6C91262C6A99ACF303292A8FDE18 /* ASBatteryMonitor.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D79294C77356FF6714603772C96316D8 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				490439B735D4AB374E8A2E0489B1EC33 /* Pods-ASTransitMonitor-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5C73744317F426340D245D6088DE58B7 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASBatteryMonitor;
+			target = 78DCAB5A2ADDAEDDCF36D0A9A18DB97B /* ASBatteryMonitor */;
+			targetProxy = 0F4175F88CC44834977DA1F1755C8379 /* PBXContainerItemProxy */;
+		};
+		75403EBF7700A671FAEAB1DA422CFD62 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASLocationMonitor;
+			target = 41A03CAB7EDDF9E704D4745B45550C9D /* ASLocationMonitor */;
+			targetProxy = 859AE704DB8CB091DC123B9E1066DAC7 /* PBXContainerItemProxy */;
+		};
+		A0B08E7364A7F40B0B31DFDE18F1D026 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASLocationMonitor;
+			target = 41A03CAB7EDDF9E704D4745B45550C9D /* ASLocationMonitor */;
+			targetProxy = CEDA213F5839E58272CD59114AFCFEFA /* PBXContainerItemProxy */;
+		};
+		D8645DEC9B435E3209EFE14976CF3E37 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = ASTransitMonitor;
+			target = 645C12B181BAFA371FDBD6D3EEC2225F /* ASTransitMonitor */;
+			targetProxy = 2228B75F6DF609435BD94875C3E40E98 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		05CC4F0703DE572A6517FB05EE263AD5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9DB14410D62D020CC44211E5F75554 /* ASBatteryMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASBatteryMonitor/ASBatteryMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBatteryMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASBatteryMonitor/ASBatteryMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASBatteryMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		1C74FE65FF24DF0795AA35F4E8B79BC2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 34564FEF2E47F8687621C51EAF0F286B /* Pods-ASTransitMonitor.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		28D6BBF92BB8F87D411CFE0268DF5619 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 115AC0F695170032F2DA8B2736C2FCFA /* Pods-ASTransitMonitorUITests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		382FC08D23DC659F048A7A03D014F366 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3490B772228E088CE00797455A58BE41 /* ASTransitMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASTransitMonitor/ASTransitMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTransitMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTransitMonitor/ASTransitMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASTransitMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4192C02A9B7F8578B23E4668FEBE6C6D /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E9DB14410D62D020CC44211E5F75554 /* ASBatteryMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASBatteryMonitor/ASBatteryMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASBatteryMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASBatteryMonitor/ASBatteryMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASBatteryMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4BB00B69D21D297F7B457BC13BE8875F /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D83FF1922B2C47FC551ED344AED4C8 /* ASLocationMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASLocationMonitor/ASLocationMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLocationMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLocationMonitor/ASLocationMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = ASLocationMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		4C8903B21E62A4951296024692EE6994 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3490B772228E088CE00797455A58BE41 /* ASTransitMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASTransitMonitor/ASTransitMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASTransitMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASTransitMonitor/ASTransitMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASTransitMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		7099C5498A54412360832EE2F00D5E5F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C09D087B6ED9DB0D75F10C99F35CD232 /* Pods-ASTransitMonitorTests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_RELEASE=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		7C53258E733257B15F958D0F05C76439 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 20DC4D598BEE7FDD935272BC516FA06B /* Pods-ASTransitMonitorTests.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitorTests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitorTests/Pods-ASTransitMonitorTests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitorTests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		7DB96437A217B3BB0A9ED66EA47D4C22 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4221EB20527B18C9CD386888B34F2B3B /* Pods-ASTransitMonitorUITests.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitorUITests/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitorUITests/Pods-ASTransitMonitorUITests.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitorUITests;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		CF7953F66E785E8876EB4D370D777D50 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGNING_REQUIRED = NO;
+				COPY_PHASE_STRIP = NO;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"POD_CONFIGURATION_DEBUG=1",
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				PROVISIONING_PROFILE_SPECIFIER = NO_SIGNING/;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+		E3BF33A3D685175FE1E4F3CE627A3171 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = E4D83FF1922B2C47FC551ED344AED4C8 /* ASLocationMonitor.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/ASLocationMonitor/ASLocationMonitor-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/ASLocationMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/ASLocationMonitor/ASLocationMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = ASLocationMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_VERSION = 3.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		EED18E3350193357C04348ED15EE04B8 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = FEABD94977AB65112D799CA6032292D7 /* Pods-ASTransitMonitor.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				CURRENT_PROJECT_VERSION = 1;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_NO_COMMON_BLOCKS = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-ASTransitMonitor/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-ASTransitMonitor/Pods-ASTransitMonitor.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRODUCT_NAME = Pods_ASTransitMonitor;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CF7953F66E785E8876EB4D370D777D50 /* Debug */,
+				79B0C2E66EFA9917ED6EDDB8FC6A7684 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3A17CA8CF75EF38A7E7AF84D914EFDDE /* Build configuration list for PBXNativeTarget "ASBatteryMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				05CC4F0703DE572A6517FB05EE263AD5 /* Debug */,
+				4192C02A9B7F8578B23E4668FEBE6C6D /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		3E6187618BD7277A337BF43994E31AB0 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				EED18E3350193357C04348ED15EE04B8 /* Debug */,
+				1C74FE65FF24DF0795AA35F4E8B79BC2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		4695724A3D7D7789ADEC1E74A0485C75 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitorTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7099C5498A54412360832EE2F00D5E5F /* Debug */,
+				7C53258E733257B15F958D0F05C76439 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		7FBE1D4F9B6DB70C552CD7D448E0A1FB /* Build configuration list for PBXNativeTarget "ASLocationMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				E3BF33A3D685175FE1E4F3CE627A3171 /* Debug */,
+				4BB00B69D21D297F7B457BC13BE8875F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C86D76D8D8B9BB3E4FCDFE2ECD9ECCEE /* Build configuration list for PBXNativeTarget "ASTransitMonitor" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				4C8903B21E62A4951296024692EE6994 /* Debug */,
+				382FC08D23DC659F048A7A03D014F366 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		FDFAB565C2B82A69E8B47386F7D9EB00 /* Build configuration list for PBXNativeTarget "Pods-ASTransitMonitorUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				7DB96437A217B3BB0A9ED66EA47D4C22 /* Debug */,
+				28D6BBF92BB8F87D411CFE0268DF5619 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}

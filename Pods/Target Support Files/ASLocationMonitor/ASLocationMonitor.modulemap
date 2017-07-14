@@ -1,0 +1,6 @@
+framework module ASLocationMonitor {
+  umbrella header "ASLocationMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

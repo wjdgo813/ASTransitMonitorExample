@@ -1,0 +1,6 @@
+framework module Pods_ASTransitMonitor {
+  umbrella header "Pods-ASTransitMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}

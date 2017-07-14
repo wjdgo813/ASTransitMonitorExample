@@ -1,0 +1,6 @@
+framework module ASTransitMonitor {
+  umbrella header "ASTransitMonitor-umbrella.h"
+
+  export *
+  module * { export * }
+}
